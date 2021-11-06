@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #697a79;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(241, 240, 240);
+    background-image: url('/img/orange-circle-background\ \(1\).png'), url('/img/1200px-Green_equilateral_triangle_point_up.svg.png');
+    background-repeat: no-repeat;
+    background-size: 300px, 300px, 100%;
+    background-position: bottom -150px left -70px, top -120px right -100px;
+}
+
+.main{
+    width: 90vw;
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.left__block{
+    background-color: #fff;
+    height: 100%;
+    flex-grow: 2;
+    padding: 2rem 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left__block h2{
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+
+}
+
+.right_block{
+    flex-grow: 1;
+}
+
+.social__icon{
+    display: inline-block;
+    font-weight: 700;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #697a79;
+}
+
+a{
+    text-decoration: none;
+    color: #697a79;
+    margin: 1rem 1rem;
+}
+
+p{
+    margin: 1rem 0;
+    width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center
+}
+
+input{
+    width: 300px;
+    background: #F0F4F3;
+    margin: 0.5rem 0;
+    padding: 1rem 0.75rem;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.help{
+    border-bottom: 1px dashed #697a79;
+    padding-bottom: 5px;
+}
+
+.left__btn{
+    color: #fff;
+    background: #3AB19B;
+    border: none;
+    border-radius: 50px;
+    padding: 0.85rem 2.75rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.left__btn:hover{
+    border: 1px solid #697a79;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.36); 
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.36);
+}

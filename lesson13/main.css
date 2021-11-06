@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(15, 144, 10);
+}
+
+.class , .element{
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background: rgb(238, 197, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+a:active{
+    background: rgb(6, 121, 175);
+}
+
+
+.box:first-child{
+    background: rgb(21, 131, 45);
+}
+
+.box:last-child{
+    font-size: 34px;
+}
+
+.box:nth-child(2n){
+    background: rgb(30, 143, 196);
+}
+
+
+.box:hover{
+    background: rgb(216, 20, 20);
+    transition: 0.5s;
+}
+
+.block{
+    width: 150px;
+    height: 150px;
+    background: rgb(16, 23, 112);
+    margin: 0 auto;
+}
+
+.block::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: rgb(220, 235, 14);
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+}
+
+.block::after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: rgb(235, 14, 187);
+    border-radius: 50%;
+    position: absolute;
+    left: 60%;
+}
